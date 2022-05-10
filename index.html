@@ -38,13 +38,18 @@
 
     <!-- Hero Section -->
     <section class="hero" id="about">
-        <img src="assets/images/wfh_1.svg" alt="jane-doe" loading="lazy" class="hero-img" />
-        <div class="bio animate__animated animate__shakeX">
+        <div class="col-6">
+            <img src="assets/images/wfh_1.svg" alt="jane-doe" loading="lazy" class="hero-img" />
+        </div>
+        <div class="col-6">
+            <div class="bio animate__animated animate__shakeX">
             <h2 class="bio-title">About Me</h2>
             <p class="bio-text">
                 I'm a chilled guy who works hard and has ambitions of making it big in the near future. I'm great to have in team.
             </p>
         </div>
+    </div>
+        
     </section>
 
 
@@ -54,13 +59,13 @@
         <h2 class="skill-header">My Top Skills</h2>
 
         <div class="skills-wrapper">
-            <div class="first-set animate__animated animate__pulse">
-                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
-
-                <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/icons/icons8-c++.svg" alt="" loading="lazy" class="icon icon-card" />
-            </div>
-        </div>
+            <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card"/>
+            <img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card"/>
+            <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card"/>
+            <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card"/>
+            <img src="assets/icons/angular-svgrepo-com.svg" alt="" loading="lazy" class="icon icon-card"/>
+            <img src="assets/icons/icons8-ionic.svg" alt="" loading="lazy" class="icon icon-card"/>
+            <img src="assets/icons/icons8-c++.svg" alt="" loading="lazy" class="icon icon-card"/>
         </div>
     </section>
 
@@ -68,11 +73,11 @@
     <section class="projects" id="projects">
         <h2 class="projects-title">Some of my Recent Projects</h2>
         <div class="projects-container">
-            <div class="project-container project-card">
+              <div class="project-container project-card">
                 <img src="assets/images/expenseTracker.png" alt="expense-tracker" loading="lazy" class="project-pic" />
                 <h3 class="project-title">Expense Tracker</h3>
                 <p class="project-details">
-                    This project is a group project
+                    This project is a project where I did API testing using a localhost
                 </p>
                 <a href="#" target="_blank" class="project-link">Check it Out</a>
             </div>
@@ -84,6 +89,39 @@
                 </p>
                 <a href="#" target="_blank" class="project-link">Check it Out</a>
             </div>
+            <div class="project-container project-card">
+                <img src="assets/images/APITesting.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">latest Movie</h3>
+                <p class="project-details">
+                    This project is a project where I did API testing using a localhost
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/APITesting.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Attendance Register</h3>
+                <p class="project-details">
+                    This project is a project where I did API testing using a localhost
+                </p>
+                <a href="#" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/APITesting.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">EduApp</h3>
+                <p class="project-details">
+                    This project is a project where I did API testing using a localhost
+                </p>
+                <a href="https://edu-app-inc.herokuapp.com/home/" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/APITesting.png" alt="expense-tracker" loading="lazy" class="project-pic" />
+                <h3 class="project-title">CookBook</h3>
+                <p class="project-details">
+                    This project is a project where I did API testing using a localhost
+                </p>
+                <a href="https://edu-app-inc.herokuapp.com/home/" target="_blank" class="project-link">Check it Out</a>
+            </div>
+            
             <!--Must add more projects here-->
 
         </div>
@@ -116,7 +154,8 @@
                         <label for="message">Message</label>
                         <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message" class="input-field" required></textarea>
                     </div>
-                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" /></form>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
             </div>
         </div>
     </section>
@@ -167,3 +206,4 @@
 </body>
 
 </html>
+
