@@ -6,15 +6,14 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
-  --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --bg-color: #D9DCD6;
+  --primary-color: #fff;
+  --secondary-color: #blue;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
+  --secondary-shadow: #81C3D7;
 }
 /* Variables end */
 
@@ -36,20 +35,24 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: var(black);
 }
 
 a:hover {
-  color: var(--secondary-color);
+  color: var(black);
 }
 
 body {
   font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: #81C3D7;
+  /* background-image: linear-gradient(0deg, #E55D87 0%, #5FC3E4 100%); */
 }
 
 section {
   /* max-width: 1100px;
   margin: auto; */
+  
 }
 
 /* CSS Resets end */
@@ -64,7 +67,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-color);
+  background-color: #2F6690;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -111,8 +114,9 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+    padding-top: 2rem;
+    height: 32rem;
+    width: 25rem;
 }
 
 .bio {
@@ -187,6 +191,8 @@ nav ul li {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: grey;
+  overflow: scroll;
 }
 
 .projects-title {
@@ -206,10 +212,12 @@ nav ul li {
 
 .project-title {
   margin-bottom: var(--bottom-margin);
+  color: black;
 }
 
 .project-details {
   margin-bottom: var(--bottom-margin);
+  color: black;
 }
 
 /* Projects section ends */
@@ -280,6 +288,7 @@ nav ul li {
 
 /* Social buttons */
 .socials {
+  /* background-color: #2F6690; */
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -288,6 +297,7 @@ nav ul li {
 }
 
 .socicon {
+  /* background-color: #2F6690; */
   width: 2rem;
   height: 2rem;
 }
@@ -309,7 +319,7 @@ nav ul li {
 
 /* Footer section */
 footer {
-  background-color: var(--bg-color);
+  background-color: #fff;
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
@@ -318,17 +328,15 @@ footer {
 
 /* General (utilities) */
 .icon-card {
-  background-color: #fff;
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: #D9DCD6;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
   border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
 }
